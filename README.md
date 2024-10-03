@@ -21,13 +21,22 @@
 
 ## Python
 - Applied Skills: Data Cleaning, Pandas
+- Platform: JupyterLab
 
 ### Project List
 
 [**Data Cleaning**](https://github.com/jhays012/Data_Projects/tree/main/Python/Data_Cleaning)
+> I utilized [online store reviews data](https://www.kaggle.com/datasets/syedafroz6284/fashion-nova-reviews) to demonstrate data cleaning. I loaded the data in the uncleaned CSV file "store_reviews.csv" into a Pandas dataframe. After dropping unwanted columns from the data, I performed data cleaning on four columns:
+> 1. Review Count: This column originally contained strings in the format "x review" or "x reviews", where x is the number of reviews. My goal was to have the column contain single integer values with the number of reviews. To accomplish this, I first removed " review" and " reviews" from the column, leaving just the number of reviews as a string, then converted the string to an integer.
+> 2. Review Date: This column originally contained strings in the format "YYYY-MM-DDTHH:MM:SS.SSSZ", where the date and time of the review were grouped together. My goal was to split the date and time into two columns and drop the milliseconds (.SSSZ) portion of the time. To accomplish this, I first split the strings at the "T", putting the first portion (the date) back into the "Review Date" column and putting the second portion (the time) into a new column, "Review Time". Then, I removed the milliseconds from the "Review Time" column since each row had zero milliseconds.
+> 3. Rating: This column originally contained strings in the format "Rated x out of 5 stars", where x is the rating given by the reviewer. Similarly to the reviews, my goal was to have the column contain single integer values with the rating. To accomplish this, I first removed "Rated " and " out of 5 stars" from the column, leaving just the rating as a string, then converted the string to an integer.
+> 4. Date of Experience: This column originally contained strings in the format "DD-Mth-YY". My goal was to format the date into the same format used in the "Review Date" column (YYYY-MM-DD) for consistency. To accomplish this, I used the datetime module to reformat each entry in the column.
+>
+> After cleaning up the data, I wrote my Pandas dataframe to the new CSV file "store_reviews_cleaned.csv".
 
 ## SQL
 - Applied Skills: ETL, Queries, Nested Queries
+- RDBMS: PostgreSQL
 
 ### Project List
 
