@@ -41,6 +41,16 @@
 ### Project List
 
 [**Covid-19**](https://github.com/jhays012/Data_Projects/tree/main/SQL/Covid-19)
+> I utilized [New York Times Covid-19 data](https://github.com/nytimes/covid-19-data/blob/master/us-states.csv) to demonstrate single-source ETL and SQL statements and queries. This project can be broken down into four steps:
+>
+> [ETL](https://github.com/jhays012/Data_Projects/tree/main/SQL/Covid-19/ETL)
+> 1. Extract and Transform Data: Using Python, I extracted the New York Times data directly from the GitHub url into a Pandas dataframe. I then performed a simple transformation on the data by adding an id column, which would be used as the primary key once the data was loaded into my database. I wrote the resulting Pandas dataframe into a CSV file, "nytimes_clean.csv".
+> 2. Create Table: In PostgreSQL, I wrote an SQL statement to create an empty table that the transformed data would be loaded into. The created table, "states", consists of six columns: <ins>id</ins> (INT), date (VARCHAR), state (VARCHAR), fips (INT), cases (INT), and deaths (INT).
+> 3. Load Data: In PostgreSQL, I wrote an SQL statement to load my CSV file (nytimes_clean.csv) into my "states" table using the COPY command.
+>
+> [SQL Queries](https://github.com/jhays012/Data_Projects/tree/main/SQL/Covid-19/Queries)
+>
+>  4. Query Data: In PostgreSQL, I wrote various SQL queries to retrieve specific information from the data. A description of the queries and their results can be found [here](https://github.com/jhays012/Data_Projects/blob/main/SQL/Covid-19/Queries/README.md).
 
 ## Tableau
 - Applied Skills: Data Visualization
