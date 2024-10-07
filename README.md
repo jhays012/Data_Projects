@@ -50,7 +50,9 @@
 >
 > [SQL Queries](https://github.com/jhays012/Data_Projects/tree/main/SQL/Covid-19/Queries)
 >
->  4. Query Data: In PostgreSQL, I wrote various SQL queries to retrieve specific information from the data. A description of the queries and their results can be found [here](https://github.com/jhays012/Data_Projects/blob/main/SQL/Covid-19/Queries/README.md).
+> 4. Query Data: In PostgreSQL, I wrote various SQL queries to retrieve specific information from the data. A description of the queries and their results can be found [here](https://github.com/jhays012/Data_Projects/blob/main/SQL/Covid-19/Queries/README.md).
 
 ## Tableau
 - Applied Skills: Data Visualization
+
+> This [folder](https://github.com/jhays012/Data_Projects/tree/main/Tableau) contains my created .twbx files. The interactive visualizations can be viewed on my [Tableau Public profile](https://public.tableau.com/app/profile/jessica.hays7076).
