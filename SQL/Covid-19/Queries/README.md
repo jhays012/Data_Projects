@@ -8,7 +8,7 @@ This query returns the first ten states with reported cases of Covid-19. Because
 ### Result
 Washington was the first state to have reported cases of Covid-19, followed by Illinois, California, Arizona, Massachusetts, Wisconsin, Texas, Nebraska, Utah, and Oregon.
 
-<img src="Results/first10_cases.png" alt="Result of executing first10_cases query." width="300"/>
+<img src="Results/first10_cases.png" alt="Result of executing first10_cases query." height="300"/>
 
 ## [top10_cases.sql](https://github.com/jhays012/Data_Projects/blob/main/SQL/Covid-19/Queries/top10_cases.sql)
 ### Description
@@ -17,4 +17,4 @@ This query returns the ten states with the highest total number of reported case
 ### Result
 As of the most recent date in the New York Times dataset (2023-03-23), California has the highest total number of reported cases of Covid-19, with 12,169,158 total cases and 104,277 total deaths. This is followed by Texas, Florida, New York, Illinois, Pennsylvania, North Carolina, Ohio, Michigan, and New Jersey. Although North Carolina has the 7th most reported cases of the ten states, it has the fewest total deaths.
 
-<img src="Results/top10_cases.png" alt="Result of executing top10_cases query." width="300"/>
+<img src="Results/top10_cases.png" alt="Result of executing top10_cases query." height="300"/>
