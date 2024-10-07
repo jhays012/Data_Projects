@@ -2,5 +2,5 @@
 SELECT state
 FROM states
 GROUP BY state
-ORDER by COUNT(state) DESC
+ORDER BY COUNT(state) DESC
 LIMIT 10;
